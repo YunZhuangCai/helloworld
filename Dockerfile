@@ -12,7 +12,7 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-FROM python:2-onbuild
+FROM registry-dev.tpaas.domain/library/python
 
 RUN mkdir -p /opt/microservices
 ADD app.py /opt/microservices/
